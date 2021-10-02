@@ -17,6 +17,8 @@ class InterestialActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
         MobileAds.initialize(this) {}
         val adRequest = AdRequest.Builder().build()
+
+
         InterstitialAd.load(
             this,
             "ca-app-pub-3940256099942544/1033173712",
