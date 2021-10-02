@@ -35,6 +35,7 @@ class SecondActivity : AppCompatActivity() {
                     mIntrestiaAd = interstitialAd
                 }
             })
+        ///ljdfkJDKfjDSJFKDSJFLKSDjFKLJ
 
         mIntrestiaAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
             override fun onAdClicked() {
