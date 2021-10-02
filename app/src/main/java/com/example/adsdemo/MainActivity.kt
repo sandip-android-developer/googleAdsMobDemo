@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         findViewById<TextView>(R.id.txtHello).setOnClickListener {
-            val intent = Intent(this, SecondActivity::class.java)
+            val intent = Intent(this, InterestialActivity::class.java)
             startActivity(intent)
         }
     }
